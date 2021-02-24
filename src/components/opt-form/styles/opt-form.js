@@ -26,11 +26,18 @@ export const Button = styled.button`
   cursor: pointer;
 
   &:hover {
-    background: #f40162;
+    background: #f40612;
   }
 
   @media (max-width: 875px) {
     height: 50px;
+    font-size: 16px;
+    margin-top: 0px;
+    font-weight: bold;
+  }
+
+  @media (max-width: 665px) {
+    height: 40px;
     font-size: 16px;
     margin-top: 20px;
     font-weight: bold;
